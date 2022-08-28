@@ -1,0 +1,37 @@
+% https://de.mathworks.com/matlabcentral/fileexchange/32247-recieve-signal-strength-versus-distance
+% https://uotechnology.edu.iq/tec_magaz/2016/volum342016/No.15(A)2016/[15]Text.pdf
+% https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7160217
+function EstimatedDistance =  distEstimate(RealDistance)
+Freq=868.0e6; %zigbee freq
+TXAntennaGain=0;%db
+RXAntennaGain=0;%db
+Dref=1;%Meter
+PTx=0.001;%watt
+PathLossExponent=2;% for Free space Line Of sight
+sigma=0.01;%Principles of communication systems simulation with wireless application P.548
+mean=0;
+GaussRandom=1;
+%GaussRandom=normrnd(mean,sigma);%mean+randn*sigma
+
+%%%%%%   FRIIS Equation %%%%%%%%%
+% Friis free space propagation model:
+%        Pt * Gt * Gr * (Wavelength^2)
+%  Pr = --------------------------
+%        (4 *pi * d)^2 * L
+% 
+% log normal shadowing radio propagation model
+% Pr0 = friss(d0)
+% Pr(db) = Pr0(db) - 10*n*log(d/d0) + X0
+% where X0 is a Gaussian random variable with zero mean and a variance in db
+%        Pt * Gt * Gr * (lambda^2)   d0^passlossExp    (X0/10)
+%  Pr = --------------------------*-----------------*10
+%        (4 *pi * d0)^2 * L          d^passlossExp
+
+Wavelength=3e8/Freq;
+PTxdBm=10*log10(PTx*1000);
+M = Wavelength / (4 * pi * Dref);
+Pr0=PTxdBm + TXAntennaGain + RXAntennaGain- (20*log10(1/M)); %%http://www.daycounter.com/Calculators/Friis-Calculator.phtml
+
+rss=Pr0-(10*PathLossExponent* log10(RealDistance/Dref))+GaussRandom;
+EstimatedDistance = 10 ^ ((Pr0 - rss)/(10 * PathLossExponent));
+end
