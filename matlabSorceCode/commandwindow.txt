@@ -1,0 +1,225 @@
+>>node=10 event=11 time=0 
+>>node=10 event=11 time=1 
+>>node=10 event=11 time=2 
+>>node=10 event=11 time=3 
+>>node=10 event=11 time=4 
+>>node=10 event=11 time=5 
+>>node=10 event=11 time=6 
+>>node=10 event=11 time=7 
+>>node=10 event=11 time=8 
+>>node=10 event=11 time=9 
+>>node=10 event=11 time=10 
+>>node=10 event=11 time=11 
+>>node=10 event=11 time=11 (event)
+----------------------------------------------------
+Node 10 
+Localization error = 2.3386m 
+True Location     :(35.44,70.55) 
+Estimated Location:(33.29,71.47)
+Path to Sink: [ 10   5 ] 
+----------------------------------------------------
+>>node=11 event=18 time=11 
+>>node=11 event=18 time=12 
+>>node=11 event=18 time=13 
+>>node=11 event=18 time=14 
+>>node=11 event=18 time=15 
+>>node=11 event=18 time=16 
+>>node=11 event=18 time=17 
+>>node=11 event=18 time=18 
+>>node=11 event=18 time=18 (event)
+----------------------------------------------------
+Node 11 
+Localization error = 1.4839m 
+True Location     :(70.36,30.52) 
+Estimated Location:(71.31,29.38)
+Path to Sink: [ 11   5 ] 
+----------------------------------------------------
+>>node=12 event=26 time=18 
+>>node=12 event=26 time=19 
+>>node=12 event=26 time=20 
+>>node=12 event=26 time=21 
+>>node=12 event=26 time=22 
+>>node=12 event=26 time=23 
+>>node=12 event=26 time=24 
+>>node=12 event=26 time=25 
+>>node=12 event=26 time=26 
+>>node=12 event=26 time=26 (event)
+----------------------------------------------------
+Node 12 
+Localization error = 6.9651m 
+True Location     :(99.07,48.82) 
+Estimated Location:(94.12,43.92)
+Path to Sink: [ 12   5 ] 
+----------------------------------------------------
+>>node=13 event=26 time=26 
+>>node=13 event=26 time=26 (event)
+----------------------------------------------------
+Node 13 
+Localization error = 5.7934m 
+True Location     :(4.38,5.81) 
+Estimated Location:(8.621,9.7568)
+Path to Sink: [ 13   2   5 ] 
+----------------------------------------------------
+>>node=14 event=31 time=26 
+>>node=14 event=31 time=27 
+>>node=14 event=31 time=28 
+>>node=14 event=31 time=29 
+>>node=14 event=31 time=30 
+>>node=14 event=31 time=31 
+>>node=14 event=31 time=31 (event)
+----------------------------------------------------
+Node 14 
+Localization error = 2.7758m 
+True Location     :(64.64,16.35) 
+Estimated Location:(66.77,18.13)
+Path to Sink: [ 14   5 ] 
+----------------------------------------------------
+>>node=15 event=41 time=31 
+>>node=15 event=41 time=32 
+>>node=15 event=41 time=33 
+>>node=15 event=41 time=34 
+>>node=15 event=41 time=35 
+>>node=15 event=41 time=36 
+>>node=15 event=41 time=37 
+>>node=15 event=41 time=38 
+>>node=15 event=41 time=39 
+>>node=15 event=41 time=40 
+>>node=15 event=41 time=41 
+>>node=15 event=41 time=41 (event)
+----------------------------------------------------
+Node 15 
+Localization error = 0.76105m 
+True Location     :(25.19,78.71) 
+Estimated Location:(25.15,77.95)
+Path to Sink: [ 15   5 ] 
+----------------------------------------------------
+>>node=16 event=43 time=41 
+>>node=16 event=43 time=42 
+>>node=16 event=43 time=43 
+>>node=16 event=43 time=43 (event)
+----------------------------------------------------
+Node 16 
+Localization error = 3.0237m 
+True Location     :(48.67,88.28) 
+Estimated Location:(49.97,85.55)
+Path to Sink: [ 16   5 ] 
+----------------------------------------------------
+>>node=17 event=44 time=43 
+>>node=17 event=44 time=44 
+>>node=17 event=44 time=44 (event)
+----------------------------------------------------
+Node 17 
+Localization error = 2.3664m 
+True Location     :(79.93,94.26) 
+Estimated Location:(78.92,92.12)
+Path to Sink: [ 17   5 ] 
+----------------------------------------------------
+>>node=18 event=59 time=44 
+>>node=18 event=59 time=45 
+>>node=18 event=59 time=46 
+>>node=18 event=59 time=47 
+>>node=18 event=59 time=48 
+>>node=18 event=59 time=49 
+>>node=18 event=59 time=50 
+>>node=18 event=59 time=51 
+>>node=18 event=59 time=52 
+>>node=18 event=59 time=53 
+>>node=18 event=59 time=54 
+>>node=18 event=59 time=55 
+>>node=18 event=59 time=56 
+>>node=18 event=59 time=57 
+>>node=18 event=59 time=58 
+>>node=18 event=59 time=59 
+>>node=18 event=59 time=59 (event)
+----------------------------------------------------
+Node 18 
+Localization error = 6.4748m 
+True Location     :(99.15,95.17) 
+Estimated Location:(94.18,91.02)
+Path to Sink: [ 18  17   5 ] 
+----------------------------------------------------
+>>node=19 event=60 time=59 
+>>node=19 event=60 time=60 
+>>node=19 event=60 time=60 (event)
+----------------------------------------------------
+Node 19 
+Localization error = 3.4346m 
+True Location     :(56.97,14.75) 
+Estimated Location:(54.26,16.86)
+Path to Sink: [ 19   5 ] 
+----------------------------------------------------
+>>node=20 event=90 time=60 
+>>node=20 event=90 time=61 
+>>node=20 event=90 time=62 
+>>node=20 event=90 time=63 
+>>node=20 event=90 time=64 
+>>node=20 event=90 time=65 
+>>node=20 event=90 time=66 
+>>node=20 event=90 time=67 
+>>node=20 event=90 time=68 
+>>node=20 event=90 time=69 
+>>node=20 event=90 time=70 
+>>node=20 event=90 time=71 
+>>node=20 event=90 time=72 
+>>node=20 event=90 time=73 
+>>node=20 event=90 time=74 
+>>node=20 event=90 time=75 
+>>node=20 event=90 time=76 
+>>node=20 event=90 time=77 
+>>node=20 event=90 time=78 
+>>node=20 event=90 time=79 
+>>node=20 event=90 time=80 
+>>node=20 event=90 time=81 
+>>node=20 event=90 time=82 
+>>node=20 event=90 time=83 
+>>node=20 event=90 time=84 
+>>node=20 event=90 time=85 
+>>node=20 event=90 time=86 
+>>node=20 event=90 time=87 
+>>node=20 event=90 time=88 
+>>node=20 event=90 time=89 
+>>node=20 event=90 time=90 
+>>node=20 event=90 time=90 (event)
+----------------------------------------------------
+Node 20 
+Localization error = 1.95m 
+True Location     :(28.63,59.06) 
+Estimated Location:(27.88,57.26)
+Path to Sink: [ 20   5 ] 
+----------------------------------------------------
+>>node=21 event=92 time=90 
+>>node=21 event=92 time=91 
+>>node=21 event=92 time=92 
+>>node=21 event=92 time=92 (event)
+----------------------------------------------------
+Node 21 
+Localization error = 2.0422m 
+True Location     :(30.97,19.49) 
+Estimated Location:(31.47,17.51)
+Path to Sink: [ 21   5 ] 
+----------------------------------------------------
+>>node=22 event=98 time=92 
+>>node=22 event=98 time=93 
+>>node=22 event=98 time=94 
+>>node=22 event=98 time=95 
+>>node=22 event=98 time=96 
+>>node=22 event=98 time=97 
+>>node=22 event=98 time=98 
+>>node=22 event=98 time=98 (event)
+----------------------------------------------------
+Node 22 
+Localization error = 3.8516m 
+True Location     :(19.82,8.86) 
+Estimated Location:(20.89,5.16)
+Path to Sink: [ 22   5 ] 
+----------------------------------------------------
+Network size: 100m x 100m 
+Anchor node range = 50m
+Normal node range = 50m
+Total number of anchor nodes = 9 
+Total number of normal nodes = 13 
+Total number of unlocalized nodes = 0 
+Avg. localization error = 3.3278m 
+Avg. energy consumption = 0.00057376 J (with sink) 
+Avg. energy consumption = 0.00055946 J (no sink) 
+----------------------------------------------------

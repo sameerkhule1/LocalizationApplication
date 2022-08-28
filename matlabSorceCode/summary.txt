@@ -1,0 +1,10 @@
+Network size: 100m x 100m 
+Anchor node range = 25m
+Normal node range = 25m
+Total number of anchor nodes = 25 
+Total number of normal nodes = 25 
+Total number of unlocalized nodes = 0 
+Avg. localization error = 1.7062m 
+Avg. energy consumption = 0.00091685 J (with sink) 
+Avg. energy consumption = 0.00089646 J (no sink) 
+----------------------------------------------------
