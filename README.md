@@ -1,7 +1,9 @@
-# MATLAB Application:
-On-demand Wireless Sensor Networks Localization using Sink-Path approach
+# On-demand Energy-efficient Localization in Wireless Sensor Networks using Sink-Path approach
 
-Introduction:
+![alt text](https://github.com/sameerkhule1/localizationApplication/blob/main/matlabSorceCode/imageMatlabApplication.png)
+
+# Introduction:
+
 The Wireless Sensor Networks (WSN) technology has immensely contributed to many
 fields of research. To maintain installation flexibility and to reduce the high costs of
 wired power supply, the wireless sensor nodes are becoming battery-powered. Since
@@ -9,7 +11,7 @@ the in-built battery source of the wireless sensor node has a limited energy cap
 it is necessary to find methods to optimize the power consumption within the sensor
 node. The wireless node must be maintained at its lowest power consumption level to
 increase the limited battery life of the wireless sensor node, which is called sleep
-mode, as long as it is possible. This thesis work presents an energy-efficient on-
+mode, as long as it is possible. This work presents an energy-efficient on-
 demand sink-path protocol for the WSN-based localization platform. In this protocol,
 each node has stored the shortest path to sink while also maintaining a low power idle
 listening mode using low power built-in Wake-Up receiver which activates only when
@@ -22,10 +24,12 @@ network lifetime. The theoretical results calculated by the computer simulation
 platform confirm the efficiency of our proposed approaches. The proposed technique
 has been created and implemented by using MATLAB R2020a.
 
-The On-demand sink-path approach is realized in this chapter, with MATLAB-based
-application.
+# Application Manual:
+
 The application is created on MATLAB R2020a and can also run using the higher
-version of MATLAB. As shown in Figure 28, there are 3 tabs on the application
+version of MATLAB.
+
+There are 3 tabs on the application
 interface: Setup, Output, and Matrices. On the Setup tab, the user can create and
 control the scenario and other scenario-related settings. On the Output tab, the user
 can analyze the results after the simulation run is complete. Also, the Output tab
@@ -54,7 +58,7 @@ The number of normal nodes the user wants to deploy in the network.
 Communication range of the normal node in meters.
 
 • Node deployment
-As shown in Figure 29 (a), The ‘Node deployment’ drop-down menu has 2 options:
+The ‘Node deployment’ drop-down menu has 2 options:
 Pre-saved and Random. The ‘Pre-saved’ option deploys the normal nodes with respect
 to a pre-saved matrix in the code and the network size. There are 1000 pre-saved
 entries in that matrix. Since it is ‘saved’, the normal node deployment will be the same
@@ -62,7 +66,7 @@ for each simulation run with the same network size entries. The Random option
 deploys the normal nodes randomly in the network and the deployment will be
 different for each simulation run even with the same network size entries.
 • Anchor deployment
-Figure 29 (b) shows the‘ Anchor deployment’ drop-down menu with 3 options: Square
+The‘ Anchor deployment’ drop-down menu with 3 options: Square
 Grid, Hexagonal Grid, and Triangular Grid. The Square Grid, Hexagonal Grid, and
 Triangular Grid options create a grid of anchor nodes deployed in a square, hexagonal,
 and triangular grid formation respectively, and will retain the deployment of the
@@ -78,8 +82,7 @@ The Side field is activated only when ‘Triangular Grid’ or ‘Hexagonal Grid
 selected in the ‘Anchor deployment’ field. The ‘Side’ represents the edge and side of
 a hexagon and triangle respectively, so in other words, it represents the distance
 between anchors. The user can change the density of anchors in the network area by
-changing the value of ‘Side’ filed in the interface. Figures 30 (a) and 30 (b) represent
-the ‘Triangular Grid’ with ‘Side’ 25m and 15m respectively. If the user leaves the ‘Side’
+changing the value of ‘Side’ filed in the interface. If the user leaves the ‘Side’
 field blank, the application automatically selects the ‘Side’. For hexagonal deployment:
 half of the Anchor range and for triangular deployment: same as the Anchor range.
 
@@ -146,7 +149,7 @@ on the ‘Generate node events’ button. The events should be entered separated
 spaces or in the form column matrix and the user should make sure that the number
 of events and the Node number is the same, to avoid error messages. As described
 before, the table below the ‘Generate node events’ button shows the generated node
-events. Figure 31 shows the example of the manual input of node events by the user.
+events.
 
 • Pause simulation checkboxes
 The user can control the simulation run by pausing the simulation for specific events
@@ -162,9 +165,7 @@ in the network similarly, by clicking on the ‘Add to restored nodes’ button,
 entering the node details in ‘Node ID’ and ‘Node Event’ edit fields. The dead or
 restored nodes are displayed in the ’Dead nodes’ and ‘Restored nodes’ tables. The
 user can clear the tables by clicking on the ‘clear table’ button above each table, to
-start editing that particular table from the beginning. For an example of this setup, as
-shown in Figure 32, node 2 will be dead at time=10 sec and will be restored in the
-network at time=18sec.
+start editing that particular table from the beginning.
 
 In the graph setup panel, to analyze and evaluate the purposes of the results, the user
 can select the checkboxes to get different types of graphs according to the need and
