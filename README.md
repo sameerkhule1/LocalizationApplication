@@ -1,4 +1,4 @@
-# On-demand Energy-efficient Localization in Wireless Sensor Networks using Sink-Path approach
+# <div id="header" align="center"> On-demand Energy-efficient Localization in Wireless Sensor in Wireless Sensor Networks using Sink-Path approach </div>
 
 ![alt text](https://github.com/sameerkhule1/localizationApplication/blob/main/matlabSorceCode/imageMatlabApplication.png)
 
